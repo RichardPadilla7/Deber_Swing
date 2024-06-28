@@ -140,8 +140,9 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-14556187"/>
           <font name="Bernard MT Condensed" size="20" style="2"/>
-          <foreground color="-1752918"/>
+          <foreground color="-15924516"/>
           <text value="PROGRAMACION ORIENTADA A OBJETOS by:RP-KM-WC"/>
         </properties>
       </component>
