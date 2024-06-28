@@ -6,7 +6,7 @@ public class Main {
         JFrame frame = new JFrame("Calculadora");
         frame.setContentPane(new Swing_POO().Calculadora);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 500);
+        frame.setSize(700, 700);
         frame.pack();
         frame.setVisible(true);
 

@@ -12,7 +12,6 @@ public class Swing_POO {
     public JButton Seno;
     public JButton Coseno;
     public JButton Tangente;
-    public JButton calcularButton;
     public JTextField Numero1;
     public JTextField Numero2;
     public JTextPane Respuesta;
@@ -51,7 +50,7 @@ public class Swing_POO {
                 double num1 = Double.parseDouble(Numero1.getText());
                 double num2 = Double.parseDouble(Numero2.getText());
                 if (num2 == 0) {
-                    JOptionPane.showMessageDialog(null, "No se puede dividir por cero.");
+                    JOptionPane.showMessageDialog(null, "No se puede dividir para cero.");
                 } else {
                     double division = num1 / num2;
                     Respuesta.setText("Resultado: " + division);
@@ -63,7 +62,7 @@ public class Swing_POO {
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(Numero1.getText());
                 if (num1 < 0) {
-                    JOptionPane.showMessageDialog(null, "No se puede calcular la raíz cuadrada de un número negativo.");
+                    JOptionPane.showMessageDialog(null, "No se puede calcular con un numero negativo.");
                 } else {
                     double raiz = Math.sqrt(num1);
                     Respuesta.setText("Resultado: " + raiz);
