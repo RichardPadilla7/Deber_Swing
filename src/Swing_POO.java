@@ -49,7 +49,7 @@ public class Swing_POO {
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(Numero1.getText());
                 double num2 = Double.parseDouble(Numero2.getText());
-                if (num2 == 0) {
+                if (num2 == 0 ) {
                     JOptionPane.showMessageDialog(null, "No se puede dividir para cero.");
                 } else {
                     double division = num1 / num2;
