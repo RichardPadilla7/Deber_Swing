@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
-
+import java.text.DecimalFormat;
 public class Swing_POO {
     public JTextArea Titulo;
     public JButton Suma;
@@ -83,7 +83,8 @@ public class Swing_POO {
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(Numero1.getText());
                 double seno = Math.sin(Math.toRadians(num1));
-                Respuesta.setText("Resultado: " + seno);
+                DecimalFormat df = new DecimalFormat("#.##");
+                Respuesta.setText("Resultado: " + df.format(seno));
             }
         });
 
@@ -91,7 +92,8 @@ public class Swing_POO {
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(Numero1.getText());
                 double coseno = Math.cos(Math.toRadians(num1));
-                Respuesta.setText("Resultado: " + coseno);
+                DecimalFormat df = new DecimalFormat("#.##");
+                Respuesta.setText("Resultado: " + df.format(coseno));
             }
         });
 
@@ -99,7 +101,8 @@ public class Swing_POO {
             public void actionPerformed(ActionEvent e) {
                 double num1 = Double.parseDouble(Numero1.getText());
                 double tangente = Math.tan(Math.toRadians(num1));
-                Respuesta.setText("Resultado: " + tangente);
+                DecimalFormat df =new DecimalFormat("#.##");
+                Respuesta.setText("Resultado: " + df.format(tangente));
             }
         });
 
