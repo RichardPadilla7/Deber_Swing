@@ -9,6 +9,6 @@ public class Main {
         frame.setSize(700, 700);
         frame.pack();
         frame.setVisible(true);
-
+// WALTER COBACANGO, RICHARD PADILLA, KEVIN MENDOZA
     }
 }
