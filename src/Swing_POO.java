@@ -65,7 +65,8 @@ public class Swing_POO {
                     JOptionPane.showMessageDialog(null, "No se puede calcular con un numero negativo.");
                 } else {
                     double raiz = Math.sqrt(num1);
-                    Respuesta.setText("Resultado: " + raiz);
+                    DecimalFormat df = new DecimalFormat("#,##");
+                    Respuesta.setText("Resultado: " + df.format(raiz));
                 }
             }
         });
