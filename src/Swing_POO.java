@@ -16,7 +16,7 @@ public class Swing_POO {
     public JTextField Numero2;
     public JTextPane Respuesta;
     public JPanel Calculadora;
-    private JTextPane PROGRAMACIONORIENTADAAOBEJTOSTextPane;
+    private JTextPane PROGRAMACIONORIENTADAAOBEJETOSTextPane;
 
     public Swing_POO() {
         Suma.addActionListener(new ActionListener() {
@@ -109,6 +109,10 @@ public class Swing_POO {
             }
         });
 
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
 

@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="Calculadora" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="616" height="400"/>
+      <xy x="20" y="20" width="616" height="406"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -133,14 +133,16 @@
           <text value="Resultado:"/>
         </properties>
       </component>
-      <component id="3a0a1" class="javax.swing.JTextPane" binding="PROGRAMACIONORIENTADAAOBEJTOSTextPane" default-binding="true">
+      <component id="3a0a1" class="javax.swing.JTextPane" binding="PROGRAMACIONORIENTADAAOBEJETOSTextPane">
         <constraints>
-          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
         <properties>
-          <text value="PROGRAMACION ORIENTADA A OBEJTOS"/>
+          <font name="Bernard MT Condensed" size="20" style="2"/>
+          <foreground color="-1752918"/>
+          <text value="PROGRAMACION ORIENTADA A OBJETOS by:RP-KM-WC"/>
         </properties>
       </component>
     </children>
