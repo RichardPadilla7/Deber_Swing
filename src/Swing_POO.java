@@ -75,7 +75,8 @@ public class Swing_POO {
                 double num1 = Double.parseDouble(Numero1.getText());
                 double num2 = Double.parseDouble(Numero2.getText());
                 double potencia = Math.pow(num1, num2);
-                Respuesta.setText("Resultado: " + potencia);
+                DecimalFormat df =new DecimalFormat("#.##");
+                Respuesta.setText("Resultado: " + df.format(potencia));
             }
         });
 
